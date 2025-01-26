@@ -1,0 +1,11 @@
+extensions:
+    # menu item
+    pim-menu-custom-ui:
+        module: pim/menu/tab
+        parent: pim-menu
+        position: 70
+        targetZone: mainMenu
+        config:
+            title: pim_menu.tab.ui.custom
+            iconModifier: icon
+            to: pim_importexport_import_profile_index
